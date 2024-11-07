@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(40, 40, 40);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.surPartie1{
+    justify-self: center;
+}
+
+.text1{
+    font-size: 3vw;
+    color: #ffffff;
+}
+
+.partieText{
+    border-radius: 15px;
+    justify-self: center;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #838383;
+    width: 50vw;
+    border: 0.25vw solid #000000;
+}
+
+.image{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    border-radius: 10px;
+    max-width: 96%;
+    height: auto;
+    width: auto;
+}
+
+
+code{
+    color: green;
+}
+
+.text{
+    color: white;
+    font-size: 2vh;
+    justify-self: center;
+    text-align: center;
+}
+
+.toMainMenu{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: right;
+    width: 13.5vw;
+    height: 6vh;
+    font-size: 1vw;
+}
+
+.toMainMenu:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
